@@ -1,0 +1,21 @@
+package com.mobilhanem;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+class Main {
+
+	private static ApplicationContext context;
+
+	public static void main(String[] args) {
+
+		context = new AnnotationConfigApplicationContext(HelloSpringConfiguration.class);
+
+		HelloSpring helloSpringObject = context.getBean(HelloSpring.class);
+
+		helloSpringObject.setMessage("Hello World!");
+		helloSpringObject.getMessage();
+
+	}
+
+}
