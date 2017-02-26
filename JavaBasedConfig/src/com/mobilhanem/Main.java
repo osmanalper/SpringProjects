@@ -3,6 +3,8 @@ package com.mobilhanem;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.mobilhanem.config.HelloSpringConfiguration;
+
 class Main {
 
 	private static ApplicationContext context;

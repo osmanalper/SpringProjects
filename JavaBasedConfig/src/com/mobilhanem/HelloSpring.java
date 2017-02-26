@@ -1,7 +1,7 @@
 package com.mobilhanem;
 
-class HelloSpring {
-	
+public class HelloSpring {
+
 	private String message;
 
 	public void setMessage(String message) {
@@ -11,5 +11,5 @@ class HelloSpring {
 	public void getMessage() {
 		System.out.println("Your Message : " + message);
 	}
-	
+
 }
